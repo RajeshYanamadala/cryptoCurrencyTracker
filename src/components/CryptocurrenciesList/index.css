@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.cryptolist-heading {
+  color: #00e7ff;
+  font-size: 28px;
+  font-family: 'roboto';
+  margin-top: 30px;
+  text-align: center;
+}
+.cryptocurrencies-list-card {
+  margin-bottom: 30px;
+}
+.crypto-list-nav-bar {
+  border-style: solid;
+  border-color: #00e7ff;
+  margin-top: 30px;
+  width: 500px;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.crypto-currency {
+  display: flex;
+  margin-right: 40px;
+}
+.coin-paragraph {
+  margin-left: 40px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.usd-paragraph {
+  margin-right: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.euro-paragraph {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.crypto-img {
+  height: 250px;
+  width: 500px;
+  margin-top: -20px;
+}
+.crypto-currency-lis-container {
+  padding-top: 20px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.render-cryptoCurrency-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 575px) {
+  .cryptocurrencies-list-card {
+    width: 200px;
+  }
+}

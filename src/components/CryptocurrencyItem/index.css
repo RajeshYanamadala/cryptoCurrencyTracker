@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.currency-log {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+.currency-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  margin-top: 3px;
+}
+.usd-value {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+  margin-right: 20px;
+}
+.euro-value {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'roboto';
+}
+.currency-log-name-card {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.currency-usd-euro-value-card {
+  display: flex;
+  margin-right: 20px;
+}
+.currency-item-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  height: 50px;
+}
